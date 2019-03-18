@@ -5,10 +5,10 @@ fcc_responsive_productlp
 The objective of this project was to build a product landing page similar in functionality [to the FCC example](https://codepen.io/freeCodeCamp/pen/eGeoxL). Emphasis of this project was to test HTML and CSS skills as covered in the curriculum.
 
 ## TOC
--[How to Use](#how-to-use)
--[Resources](#resources)
--[Dependencies](#dependencies)
--[Project Requirements](#project-requirements)
+- [How to Use](#how-to-use)
+- [Resources](#resources)
+- [Dependencies](#dependencies)
+- [Project Requirements](#project-requirements)
 
 ## How to Use
 You can [visit my CodePen app here](https://codepen.io/ginamc/pen/bZKwMK) and play with the landing page. The to navigation is linked to 3 anchors on the page, and the email submission form will take you to a pre-made Freecode Camp page that acts as an indicator that your submission was successful.
