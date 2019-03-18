@@ -1,0 +1,104 @@
+/* GENERAL STYLING */
+/* for Media Queries, see css/mediaqueries.css */
+
+*,
+*:before,
+*:after {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+
+}
+
+
+.body-container {
+    text-align: center;
+}
+
+
+
+
+/* keeping top nav in view all times */
+#header {
+    display: flex;
+    width: 100%;
+    position: fixed;
+    background-color: #fff;
+    transition: top 0.3s;
+    top: 0;
+    /* padding-left: 80px; */
+}
+
+/* adding padding to nav menu to keep in view */
+.nav-item {
+    padding-top: 70px;
+    padding-left: 30px;
+    padding-bottom: 5px;
+    text-align: right;
+}
+
+.nav-link:hover {
+    color: #008e97;
+    font-weight: bold;
+}
+
+.nav-link {
+    font-size: 12px;
+}
+
+/* LOGO SIZE */
+#header-img {
+    width: 100px;
+}
+
+/* ICON SIZE */
+.icon {
+    width: 150px;
+}
+
+/* flex box for icons */
+.service-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icons {
+    padding: 30px;
+}
+
+/* FOOTER */
+.footer-container {
+    background: #222;
+}
+
+.footer-text {
+    color: white;
+    padding: 8px 8px 0 8px;
+    font-size: 12px;
+    font-style: italic;
+    font-family: Helvetica, sans-serif;
+    text-align: left;
+}
+
+.footer-social {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    
+}
+
+.social-icon {
+    width: 20px;
+    padding: 0 0 10px 10px;
+    
+}
+
+/* EMAIL BLOCK */
+
+.interest-form {
+    background-color: #008e97;
+}
+
+.form-button:hover{
+    background-color: yellow;
+}

@@ -1,0 +1,165 @@
+/* media queries */
+
+@media screen and (max-width:320px) {
+
+    #header-img {
+        width: 50px;
+    }
+
+    .nav-item {
+        padding-top: 20px;
+    }
+
+    .nav-link {
+        font-size: 10px;
+    }
+
+    #hero-img {
+        width: 300px;
+    }
+
+    .service-icons {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .icon {
+        width: 25px;
+    }
+
+    .icons {
+        padding: 5px;
+    }
+
+    .icon-text {
+        font-size: 10px;
+    }
+
+   .video-text {
+       font-size: 10px;
+       font-style: italic;
+   }
+
+   /* email form */
+   .form-text {
+    padding: 8px 5px;
+   }
+
+   .form-button {
+       padding: 8px;
+   }
+
+   #submit:hover {
+       font-weight: bold;
+   }
+}
+
+@media screen and (min-width:321px) {
+
+    #header-img {
+        width: 100px;
+    }
+
+    .nav-item {
+        padding-top: 70px;
+    }
+
+    .nav-link {
+        font-size: 14px;
+    }
+
+    #hero-img {
+        width: 100%
+    }
+
+    .service-icons {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .icon {
+        width: 50px;
+    }
+
+    .icons {
+        padding: 10px;
+    }
+
+    .icon-text {
+        font-size: 14px;
+    }
+
+   .video-text {
+       font-size: 14px;
+       font-style: italic;
+   }
+
+    /* email form */
+   .form-text {
+    padding: 8px 5px;
+   }
+
+   .form-button {
+       padding: 8px;
+   }
+
+   #submit:hover {
+       font-weight: bold;
+   }
+}
+
+@media screen and (min-width:620px) {
+
+    #header-img {
+        width: 120px;
+    }
+
+    .nav-item {
+        padding-top: 90px;
+    }
+
+    .nav-text {
+        font-size: 14px;
+    }
+
+    #hero-img {
+        width: 100%
+    }
+
+    .service-icons {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .icon {
+        width: 120px;
+    }
+
+    .icons {
+        padding: 30px;
+    }
+
+    .video-text {
+       font-size: 14px;
+       font-style: italic;
+   }
+
+   /* email form */
+   .form-text {
+    padding: 8px 5px;
+   }
+
+   .form-button {
+       padding: 8px;
+   }
+
+   #submit:hover {
+       font-weight: bold;
+   }
+}

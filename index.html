@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Product Landing Page - Freecode Camp Project 2</title>
+    <!-- INCLUDE CSS FILES -->
+    <link rel="stylesheet" type="text/css" media="screen" href="css/stylesheet.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/mediaqueries.css">
+    <!-- INCLUDE GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Heebo:100|Open+Sans+Condensed:300" rel="stylesheet">
+    <!-- Freecode Camp project test script -->
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</head>
+
+<body class="body-container">
+    <!-- break down the mockup into 'containers,' use DIVs to differentiate between inner containers -->
+
+    <header id="header">
+        <!-- header includes logo, nav element with 3 clickable items -->
+        
+        <div class="header-logo">
+            <!-- ADD THE LOGO HERE -->
+            <img id="header-img" src="image/fcc-lp-logos.png" alt="high school logo">
+        </div>
+
+        <section class="top-nav">
+            <nav id="nav-bar">
+                <!-- ADD NAV LINKS HERE -- 3 of them -->
+                <!-- Nav 1, Nav 2, Nav 3 // do they get their own DIVs?-->
+                <div class="nav-item">
+                    <a class="nav-link" href="#school-service">School Info</a><!--hyperlink to icons--> | <a class="nav-link" href="#about-video">Video</a> <!--hyperlink to embedded video--> | <a class="nav-link" href="#subscribe">Subscribe</a> <!--hyperlink to form-->
+                </div>
+            </nav>
+        </section>
+
+    </header>
+
+    <main class="content">
+        <!-- the main content with video, icons, etc. -->
+
+        <div class="hero">
+            <!-- ADD HERO IMAGE HERE -->
+            <img id="hero-img" src="image/hero-upchs.jpg" alt="students smiling">
+        </div>
+        
+        <!-- under the hero, add a section for the 3 icons and video -->
+        <a id="school-service"></a>
+        <section class="school-info">
+            <div class="service-icons">
+                <!-- add 3 icons here -->
+                <div class="icons">
+                    <!--ICON 1 image -->
+                    <img class="icon" src="image/1.png" alt="graduation cap">
+                    <p class="icon-text">Student Life</p>
+                </div>
+                <div class="icons">
+                    <!--ICON 2 image -->
+                    <img class="icon" src="image/2.png" alt="light bulb">
+                    <p class="icon-text">Info for Families</p>
+                </div>
+                <div class="icons">
+                    <!-- ICON 3 image -->
+                    <img class="icon" src="image/3.png" alt="apple">
+                    <p class="icon-text">Our People</p>
+                </div>
+            </div>
+
+            <a id="about-video"></a>
+            <div class="product-video">
+                <!-- EMBED VIDEO  width="640" height="360" -->
+                <iframe id="video" src="https://player.vimeo.com/video/224509065" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                <p class="video-text">Source: Uncommon Schools</p>
+            </div>
+        </section>
+
+        <a id="subscribe"></a>
+        <section class="interest-form">
+            <!-- ADD FORM HERE -->
+            <div class="email-form">
+                <form id="form" method="POST" action="https://www.freecodecamp.com/email-submit" target="_blank">
+                    <div class="form-text">Sign up to receive email updates about our school.</div>
+                    <div class="form-fill">
+                        <label for="email">Email</label>
+                        <input id="email" name="email" type="email" required placeholder="abc@123.com" >
+                    </div>
+        
+                    <div class="form-button">
+                        <input id="submit" name="submit" type="submit">
+                        <button>Sign Up</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer-container">
+        <!-- ADD FOOTER WITH ANNOTATION & SOCIAL ICONS -->
+        <div class="footer-box">
+            <p class="footer-text">This page is a project for Freecode Camp's Responsive Web Design curriculum, and is not reflective of or endorsed by any known entity.</p>
+        </div>
+
+        <div class="footer-social">
+            <!-- add social icons here; make background color dark - icons are white -->
+            <img class="social-icon" src="image/icons8-facebook-f-filled-100.png" alt="facebook">
+            <img class="social-icon" src="image/icons8-instagram-filled-100.png" alt="instagram">
+            <img class="social-icon" src="image/icons8-vimeo-filled-100.png" alt="vimeo">
+        </div>
+    </footer>
+    
+
+
+</body>
+</html>
